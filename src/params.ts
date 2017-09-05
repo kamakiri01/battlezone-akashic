@@ -1,0 +1,59 @@
+import * as wf from "./WireFrame";
+
+export const bulletVT = new wf.VertexTable();
+bulletVT.push(new wf.Vector(  0, -5,  5) );
+bulletVT.push(new wf.Vector( -2, -5, -5) );
+bulletVT.push(new wf.Vector(  2, -5, -5) );
+bulletVT.push(new wf.Vector(  0, -5,  5) );
+
+export const horizonVT = new wf.VertexTable();
+horizonVT.push(new wf.Vector( 0, 0, 0) );
+horizonVT.push(new wf.Vector(  10000, 0, 1000) );
+horizonVT.push(new wf.Vector( -10000, 0, 1000) );
+
+export const tankVT = new wf.VertexTable();
+tankVT.push(new wf.Vector( -10,  -8, -15) );
+tankVT.push(new wf.Vector( -10,   0, -20) );
+tankVT.push(new wf.Vector(  10,   0, -20) );
+tankVT.push(new wf.Vector(  10,  -8, -15) );
+tankVT.push(new wf.Vector( -10,  -8, -15) );
+tankVT.push(new wf.Vector( -10,  -8,  15) );
+tankVT.push(new wf.Vector(  10,  -8,  15) );
+tankVT.push(new wf.Vector(  10,   0,  20) );
+tankVT.push(new wf.Vector( -10,   0,  20) );
+tankVT.push(new wf.Vector( -10,  -8,  15) );
+tankVT.push(new wf.Vector(  10,  -8,  15) );
+tankVT.push(new wf.Vector(  10,  -8, -15) );
+tankVT.push(new wf.Vector(  10,   0, -20) );
+tankVT.push(new wf.Vector(  10,   0,  20) );
+tankVT.push(new wf.Vector( -10,   0,  20) );
+
+tankVT.push(new wf.Vector( -10,   0, -20) );
+tankVT.push(new wf.Vector(  -8,  10, -20) );
+tankVT.push(new wf.Vector(   8,  10, -20) );
+tankVT.push(new wf.Vector(  10,   0, -20) );
+tankVT.push(new wf.Vector( -10,   0, -20) );
+tankVT.push(new wf.Vector( -10,   0,  20) );
+tankVT.push(new wf.Vector(  10,   0,  20) );
+tankVT.push(new wf.Vector(   8,  10,   0) );
+tankVT.push(new wf.Vector(  -8,  10,   0) );
+tankVT.push(new wf.Vector( -10,   0,  20) );
+tankVT.push(new wf.Vector(  10,   0,  20) );
+tankVT.push(new wf.Vector(  10,   0, -20) );
+tankVT.push(new wf.Vector(   8,  10, -20) );
+tankVT.push(new wf.Vector(   8,  10,   0) );
+tankVT.push(new wf.Vector(  -8,  10,   0) );
+tankVT.push(new wf.Vector(  -8,  10, -20) );
+tankVT.push(new wf.Vector(  -8,   0, -20) );
+tankVT.push(new wf.Vector(   0,   5,  25) );
+tankVT.push(new wf.Vector(   8,   0, -20) );
+
+export const treeVT = new wf.VertexTable();
+treeVT.push(new wf.Vector( 0, 0, 0) );
+treeVT.push(new wf.Vector( 0, 20, 0) );
+treeVT.push(new wf.Vector( 5, 5, 0) );
+treeVT.push(new wf.Vector( -5, 5, 0) );
+treeVT.push(new wf.Vector( 0, 20, 0) );
+treeVT.push(new wf.Vector( 0, 5, 5) );
+treeVT.push(new wf.Vector( 0, 5, -5) );
+treeVT.push(new wf.Vector( 0, 20, 0) );
