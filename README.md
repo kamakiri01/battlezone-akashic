@@ -1,5 +1,7 @@
 # battlezone-akashic
 
+![image](https://user-images.githubusercontent.com/3122541/30171312-99f8378c-942c-11e7-9580-0221cf978766.png)
+
 Tank combat game uses wireframe vector graphics.
 
 Original from Atari(1980).
